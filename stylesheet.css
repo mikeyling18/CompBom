@@ -1,0 +1,73 @@
+/* Version 1.0 
+   Released 8/6/2018
+   Mikey Ling
+*/
+
+.instructions_header{
+	margin-bottom: 5px;
+}
+.instructions_list{
+	margin-top: 5px; 
+}
+.input_file{
+	width: 100%;
+}
+.bigred {
+	font-size: 20pt;
+	color: red;
+}
+button {
+	cursor: pointer;
+	margin-bottom: 2rem;
+}
+table{
+
+	border-collapse: collapse;
+}
+tr:nth-child(even){
+	background-color: lightgrey;
+}
+td {
+	padding: 5px;
+}
+#author {
+	font-size: 10pt; 
+	display: inline;
+	color: black;
+}
+#different_comcode {
+	font-weight: bold;
+}
+#different_quantity{
+	font-weight: bold;
+}
+
+
+#bom1_only:hover {
+	background-color: lightblue;
+}
+#bom2_only:hover {
+	background-color: #fccfd3;
+}
+#diff_comcode:hover{
+	background-color: #d9ffcc;
+}
+#diff_quantity:hover{
+	background-color: #c266ff;
+}
+
+
+.left_vertical_line{
+	border-right: solid;
+}
+.right_vertical_line{
+	border-right:solid
+}
+
+#header_row{
+	background-color: white;
+	border-top: solid;
+	border-bottom: solid;
+}
+
+
